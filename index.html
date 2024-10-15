@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="Enter City Name">
+            <button class="search-button">Search</button>
+        </div>
+        <div class="weather-box">
+            <div class="temperature">
+                <div class="degree">
+                    <span class="degrees"></span>
+                    <span class="units">°C</span>
+                </div>
+            </div>
+            <div class="weather-conditions">
+                <div class="description">
+                    <span class="city">dhaka</span>
+                </div>
+            </div>
+        </div>
+        <div class="forecast">
+            <h2>3-Day Forecast</h2>
+            <div class="forecast-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
